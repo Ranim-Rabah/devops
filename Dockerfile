@@ -2,7 +2,7 @@
 FROM openjdk:11-jdk-slim
 
 # Expose the port on which your Spring Boot application will run
-EXPOSE 8080
+EXPOSE 8082
 
 # Copy the JAR file from the target directory to the Docker image
 # Update 'tp-foyer-1.0.jar' with the actual name of your built JAR file
